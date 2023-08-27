@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.homeContainer {
+  background-color: antiquewhite;
+  padding: 30px;
+  border-radius: 30px;
+  border: 20px solid whitesmoke;
+}
+.budget {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.incomeAndExpense {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: white;
+}
+.income {
+  padding: 30px;
+  background-color: aqua;
+}
+.income > h4 {
+  color: green;
+  padding: 20px;
+}
+.expense {
+  background-color: aqua;
+  padding: 30px;
+}
+.expense > h4 {
+  color: red;
+  padding: 20px;
+}
+.data {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: 20px 0;
+  padding: 5px;
+}
+.data > p:nth-child(1) {
+  margin-left: 10px;
+}
+.data > p:nth-child(2) {
+  margin-right: 20px;
+}
+.data_button_delete {
+  position: absolute;
+  display: none;
+  left: -24px;
+  top: 1px;
+  padding: 5px;
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+}
+.showDeleteButton {
+  display: block;
+}
+
+.addingDataPart {
+  margin-top: 20px;
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+}
+.formDiv > input {
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.formDiv > button {
+  border: none;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  background-color: green;
+}
